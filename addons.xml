@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.endlessdigitalmedia" name=" [COLOR blue]E[/COLOR]ndless [COLOR blue]D[/COLOR]igital [COLOR blue]M[/COLOR]edia" version="3.2.1" provider-name="Endless Digital Media">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Endless Digital Media</summary>
+    <description lang="en">Easy install with just a cick of a button. Visit our website for help. endlessdigitalmedia.com     [COLOR red]WARNING!!! [/COLOR][COLOR blue]E[/COLOR]ndless [COLOR blue]D[/COLOR]igital [COLOR blue]M[/COLOR]edia is not held liable for anything that happens to your device. You here acknowledge that you are solely responsible for what happens to your device once you install. Before running wizard make sure you save all your favorites onto a piece of paper or can currently easily revert back to the list. As this will wipe out all your favorites </description>
+    <platform>all</platform>
+  </extension>
+</addon>
